@@ -1,0 +1,36 @@
+body {
+  font-family: 'Staatliches', cursive;
+  background-color: #ffda91;
+  color: #555555;
+  
+}
+
+#box {
+  margin-top: 50px;
+   margin-bottom:10px;
+}
+
+#box1{
+  margin-top: 1%;
+}
+
+#title{
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+#break-decrement{
+  margin-right: 10px;
+  
+}
+
+#session-increment{
+  margin-left: 10px;
+}
+#reset, #start_stop {
+  margin-bottom: 10px;
+}
+
+ input {
+   width: 100px;   
+}
