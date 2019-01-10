@@ -208,6 +208,13 @@ class App extends React.Component {
   }
 }
 
-  
+  const Footer = () => {
+  return(
+<p className="text-center">Written by <a href="https://github.com/londonjob" target="_blank">londonjob</a></p>
+    
+    
+  )
+};
+
   
 ReactDOM.render(<App />, document.getElementById("root"));
