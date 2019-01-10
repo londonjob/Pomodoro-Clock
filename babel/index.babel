@@ -1,5 +1,5 @@
 class App extends React.Component {
-   constructor(props) {
+  constructor(props) {
     super(props);
     this.state = {
       brkLength: 5,
@@ -108,7 +108,9 @@ class App extends React.Component {
           <div className="col-md">
             <div className="border border-primary">
               <div className="text-center row justify-content-center">
-                <p id='title'className="text-center">Pomodoro Clock</p>
+                <p id="title" className="text-center">
+                  Pomodoro Clock
+                </p>
               </div>
               <div className="row justify-content-center">
                 <div className="çol-md">
@@ -163,7 +165,7 @@ class App extends React.Component {
                 </div>
               </div>
 
-              <div id='box'className="row justify-content-center">
+              <div id="box" className="row justify-content-center">
                 <div className="col-md">
                   <p className="row justify-content-center" id="timer-label">
                     Session
@@ -188,7 +190,11 @@ class App extends React.Component {
                   Start
                 </button>
 
-                <button id="reset" className="btn btn-danger" onClick={this.handleReset}>
+                <button
+                  id="reset"
+                  className="btn btn-danger"
+                  onClick={this.handleReset}
+                >
                   Reset
                 </button>
               </div>
@@ -208,6 +214,15 @@ class App extends React.Component {
   }
 }
 
-  
-  
+const Footer = () => {
+  return (
+    <p className="text-center">
+      Written by{" "}
+      <a href="https://github.com/londonjob" target="_blank">
+        londonjob
+      </a>
+    </p>
+  );
+};
+
 ReactDOM.render(<App />, document.getElementById("root"));
