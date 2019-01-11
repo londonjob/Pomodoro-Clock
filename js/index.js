@@ -198,14 +198,28 @@ var _createClass = function () {function defineProperties(target, props) {for (v
                   src: "https://goo.gl/65cBl1",
                   ref: function ref(audio) {
                     _this2.audioBeep = audio;
-                  } }))))));
+                  } })))),
 
+
+
+
+          React.createElement("div", null,
+            React.createElement("footer", null,
+              React.createElement("p", { className: "text-center" }, " Written by ", React.createElement("a", { href: "https://github.com/londonjob", target: "_blank" }, "londonjob"))))));
 
 
 
 
 
     } }]);return App;}(React.Component);
+
+
+
+
+
+
+
+
 
 
 

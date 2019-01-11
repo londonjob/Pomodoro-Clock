@@ -34,3 +34,8 @@ body {
  input {
    width: 100px;   
 }
+
+footer { 
+  display: block;
+  margin-top: 40%;
+}
